@@ -11,6 +11,11 @@
 [XMGStatusBarHUD showError:@"加载失败!"];
 ```
 
+## 显示普通信息
+```objc
+[XMGStatusBarHUD showMessage:@"没有什么事!!!!"];
+```
+
 ## 显示加载信息
 ```objc
 [XMGStatusBarHUD showLoading:@"正在加载中..."];
